@@ -32,6 +32,7 @@ public class Loop {
 			System.out.println("3. 캐릭터 설정");
 			System.out.println("9. 종료");
 			choice = scan.nextInt();
+			System.out.println("------------");
 			System.out.println("메뉴 입력 => " + choice);
 			switch (choice) {
 			case 1:
