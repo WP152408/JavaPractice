@@ -31,9 +31,9 @@ public class Loop {
 			System.out.println("2. 공격력 감소");
 			System.out.println("3. 캐릭터 설정");
 			System.out.println("9. 종료");
-			choice = scan.nextInt();
 			System.out.println("------------");
-			System.out.println("메뉴 입력 => " + choice);
+			System.out.print("메뉴 입력 => ");
+			choice = scan.nextInt();
 			switch (choice) {
 			case 1:
 				System.out.println("공격력이 증가되었습니다. 현재 공격력 : " + (++atk) + "0");
@@ -49,9 +49,11 @@ public class Loop {
 			case 9:
 				scan.close();
 				break;
+			default:
+				System.out.println("없는 메뉴입니다!!");
 			}
-			System.out.printf("------------%n이제 공부하세요!");
 		} while (choice != 9);
+		System.out.printf("------------%n이제 공부하세요!");
 	}
 
 }
