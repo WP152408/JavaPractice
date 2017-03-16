@@ -41,9 +41,9 @@ public class Loop {
 				System.out.println("공격력이 감소되었습니다. 현재 공격력 : " + (--atk) + "0");
 				break;
 			case 3:
-				String[] clst = {"영주", "농민", "마법사", "기사"};
-				int clsn = new Random().nextInt(4);
-				System.out.println(clst[clsn] + "(으)로 설정되었습니다.");
+				String[] clsType = {"영주", "농민", "마법사", "기사"};
+				int clsNumb = new Random().nextInt(4);
+				System.out.println(clsType[clsNumb] + "(으)로 설정되었습니다.");
 				break;
 			case 9:
 				scan.close();
