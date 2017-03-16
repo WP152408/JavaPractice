@@ -53,7 +53,7 @@ public class Loop {
 				System.out.println("없는 메뉴입니다!!");
 			}
 		} while (choice != 9);
-		System.out.printf("------------%n이제 공부하세요!");
+		System.out.printf("이제 공부하세요!");
 	}
 
 }
