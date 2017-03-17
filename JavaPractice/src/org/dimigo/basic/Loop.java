@@ -36,10 +36,10 @@ public class Loop {
 			choice = scan.nextInt();
 			switch (choice) {
 			case 1:
-				System.out.println("공격력이 증가되었습니다. 현재 공격력 : " + (++atk) + "0");
+				System.out.println("공격력이 증가되었습니다. 현재 공격력 : " + (++atk == 0 ? "" : (atk)) + "0");
 				break;
 			case 2:
-				System.out.println("공격력이 감소되었습니다. 현재 공격력 : " + (--atk) + "0");
+				System.out.println("공격력이 감소되었습니다. 현재 공격력 : " + (--atk == 0 ? "" : (atk)) + "0");
 				break;
 			case 3:
 				String[] clsType = {"영주", "농민", "마법사", "기사"};
