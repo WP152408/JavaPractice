@@ -15,41 +15,26 @@ package org.dimigo.oop;
  * @author : pengfox
  * @version : 1.0
  */
-public class CarTest {
+public class CarTest2 {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Car blackCar = new Car();
-		Car whiteCar = new Car();
-		Car grayCar = new Car();
+		Car2 blackCar = new Car2("현대", "제네시스", "검정", 225, 50000000);
+		Car2 whiteCar = new Car2("기아", "K7", "흰", 246, 40000000);
+		Car2 grayCar = new Car2("삼성", "SM7", "회", 200, 38000000);
 		
 		System.out.println("<< 자동차 목록 >>");
 		
-		blackCar.setCompany("현대");
-		blackCar.setModel("제네시스");
-		blackCar.setColor("검정");
-		blackCar.setMaxSpeed(225);
-		blackCar.setPrice(50000000);
 		
 		System.out.printf("제조사명 : %s자동차%n모델명 : %s%n색상 : %s색%n최대속도 : %dkm%n가격 : %,d원%n%n",
 				blackCar.getCompany(), blackCar.getModel(), blackCar.getColor(), blackCar.getMaxSpeed(), blackCar.getPrice());
 		
-		whiteCar.setCompany("기아");
-		whiteCar.setModel("K7");
-		whiteCar.setColor("흰");
-		whiteCar.setMaxSpeed(246);
-		whiteCar.setPrice(40000000);
 		
 		System.out.printf("제조사명 : %s자동차%n모델명 : %s%n색상 : %s색%n최대속도 : %dkm%n가격 : %,d원%n%n",
 				whiteCar.getCompany(), whiteCar.getModel(), whiteCar.getColor(), whiteCar.getMaxSpeed(), whiteCar.getPrice());
 		
-		grayCar.setCompany("삼성");
-		grayCar.setModel("SM7");
-		grayCar.setColor("회");
-		grayCar.setMaxSpeed(200);
-		grayCar.setPrice(38000000);
 		
 		System.out.printf("제조사명 : %s자동차%n모델명 : %s%n색상 : %s색%n최대속도 : %dkm%n가격 : %,d원%n%n",
 				grayCar.getCompany(), grayCar.getModel(), grayCar.getColor(), grayCar.getMaxSpeed(), grayCar.getPrice());
