@@ -54,5 +54,4 @@ public class CarTest {
 		System.out.printf("제조사명 : %s자동차%n모델명 : %s%n색상 : %s색%n최대속도 : %dkm%n가격 : %,d원%n%n",
 				grayCar.getCompany(), grayCar.getModel(), grayCar.getColor(), grayCar.getMaxSpeed(), grayCar.getPrice());
 	}
-
 }
