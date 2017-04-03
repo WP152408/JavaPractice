@@ -18,11 +18,9 @@ import java.util.Scanner;
  * @version : 1.0
  */
 public class Question {
-
 	public static void main(String[] args) {
 	StringBuilder tmp = new StringBuilder("<< 결과 출력 >>\n");
 	String[] questions = {"가수는", "배우는", "과목은"}, answers = {"아이유", "러셀 크로우", "응용 프로그래밍"};
-	
 	Scanner scanner  = new Scanner(System.in);
 	
 	for(int i = 0; i < 3; i ++) {
@@ -32,7 +30,5 @@ public class Question {
 	}
 	scanner.close();
 	System.out.println(tmp);
-
 	}
-
 }
