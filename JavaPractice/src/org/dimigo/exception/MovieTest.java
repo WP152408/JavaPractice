@@ -15,7 +15,7 @@ package org.dimigo.exception;
  * @author : pengfox
  * @version : 1.0
  */
-public class movieTest {
+public class MovieTest {
 	public static void main(String[] args) {
 		int age = 13;
 		Movie[] movies = {
