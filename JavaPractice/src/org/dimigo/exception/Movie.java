@@ -22,7 +22,7 @@ public class Movie {
 		this.title = title;
 		this.limitAge = limitAge;
 	}
-	
+	 
 	public String getTitle() {
 		return title;
 	}
