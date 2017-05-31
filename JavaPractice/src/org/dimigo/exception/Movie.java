@@ -15,7 +15,7 @@ package org.dimigo.exception;
  * @author : pengfox
  * @version : 1.0
  */
-public class Movie extends Exception {
+public class Movie {
 	private String title;
 	private int limitAge;
 	public Movie(String title, int limitAge) {
